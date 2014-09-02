@@ -1,0 +1,228 @@
+body,h1,h2,h3,h4{margin:0px; color:#333333; margin:0px; padding:0px; font-weight:100;  text-shadow: 0px 1px 2px rgba(0,0,0,0);}
+body,div,td{font-family:"Hiragino Sans GB","微软雅黑", Lucida Grande, Geneva, Arial, Verdana, Lucida Sans Unicode, Helvetica, sans-serif; font-size:12px; line-height:18px;}
+img{outline: none; border:0px;} 
+
+a:link{color:#4388d3; text-decoration:none; }
+a:hover{color:#4388d3; text-decoration:underline;}
+a:visited{color:#4388d3}
+a {blr:expression(this.onFocus=this.blur());}
+a:focus {outline: none;} 
+.clr{clear:both;}
+
+body{background:#fff; overflow: scroll; font-size: 12px;}
+
+#Head{width:100%; background: #f9f9f9; border-bottom: 1px solid #e9e9e9;}
+#HeadWrapper{margin:0px auto; width:960px; clear:both;}
+#HeadBG{width:100%; height: 100%; background: #fff; opacity: 0.3; position: absolute; top: 0px; border-bottom:1px solid #e9e9e9; }
+
+#Logo{float: left; margin:10px 0px 10px; width:50px; height:60px; background:url(images/logo_blue.png) no-repeat; background-size: contain; z-index:500;}
+
+#Menu{ float:right; margin-top:30px; font-size: 13px;}
+#Menu a{opacity: 1; float:left; text-align:right; line-height:24px; display:block; margin-left: 50px; height:24px; color:#333; }
+#Menu a:hover{ color:#40a3ff; text-decoration: none;}
+
+#SubMenu{text-align:center; height:60px; border:1px solid #fff; border-radius:4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; position:relative; border-bottom:0px solid #ddd; width: 600px; margin: 0px auto;}
+#SubMenu a{display:inline-block; text-align:center; color:#333; font-size:14px; line-height:26px; margin:20px 12px; height:26px; width:90px;}
+#SubMenu a.active{font-weight:normal; border-radius:4px; color:#fff; background:#489cd8; }
+#SubMenu a.active:hover{ text-decoration:none; cursor:hand; }
+
+.wrapper{margin:0px auto; padding:0px; width:960px; position: relative; height: 100%;}
+
+
+#TopIntro{position: relative; padding-top: 0px; width: 100%; height: 820px; background: #317eaa; overflow: hidden;}
+
+#TopPic{ position:absolute; bottom:200px; right:-100px; background:url(images/screenShot_iphone.png) no-repeat; background-size: 500px 500px; width:500px; height:500px; z-index: 5;}
+#TopIntro .pic_en{ position:absolute; top:20px; right:-56px; background:url(images/intro_top_en.jpg) no-repeat; width:1100px; height:1100px;}
+
+#TopIntro .weibo{position:absolute; display: none; bottom:4px; right:120px; font-size:12px; height:18px; line-height:18px;}
+#TopIntro .version{position:absolute; z-index: 999; text-decoration: none; bottom:20px; color: #fff; right:0px; padding-left: 40px; font-size:12px; height:20px; background-size: contain; background-repeat: no-repeat; line-height:20px;}
+#TopIntro .version:hover{text-decoration: underline;}
+
+#TopIntro #VersionEN{background-image:url(images/lang_en.png);}
+#TopIntro #VersionCN{background-image:url(images/lang_cn.png);}
+
+#TopDescrTitle{ position:absolute; top:80px; left:0px; height: 200px; width: 600px; }
+
+#TopDescrTitle .logo{position:absolute; top:12px; left:-12px; height:100px; width:100px; float:left; background:url(images/logo.png) no-repeat; background-size: 100px 100px;}
+#TopDescrTitle h1{position:absolute; color: #fff; top:40px; left:90px; font-size:36px; font-weight:100; line-height:34px; margin:0px 0px 10px;}
+#TopDescrTitle h1.en{font-size: 28px;}
+#TopDescrContent{position:absolute; color: #fff; top:200px; left:0px; padding-right: 440px; font-size:16px; height:44px; font-weight:100; line-height:32px; margin:0px 0px 10px;}
+
+#TopDescrContent.en{position:absolute; color: #fff; top:200px; left:0px; padding-right: 440px; font-size:14px; height:44px; font-weight:100; line-height:28px; margin:0px 0px 10px;}
+
+.downloads{margin-top: 50px;}
+.downloads .block{margin-left: 0; margin-bottom: 50px;}
+/* .downloads.en .block{margin-left: -12px;} */
+
+#TopIntro{}
+#TopIntro .btn{background:url(images/download_btns.png) no-repeat; background-size: 875px 150px; display:block; margin-bottom: 20px;}
+#TopIntro h3{font-size: 22px; color: #fff; display: block; margin-bottom: 8px;}
+
+#Downloads{position: absolute; top:340px;}
+
+#iOSDownload {position: absolute; top:0px;}
+#iOSDownload .btn{background-position:0px 0px; height:54px; width:170px;}
+#iOSDownload .btn:hover{background-position:-0px -59px;}
+
+#AndroidDownload {position: absolute; top:120px; left: 0px;}
+#AndroidDownload h3{text-align: left;}
+#AndroidDownload .block{width:600px;}
+#AndroidDownload .btn{height:54px; width:170px; margin-right: 30px; float: left;}
+
+#AndroidDownload .btn_googleplay{background-position:-175px 0px; height:54px; width:170px;}
+#AndroidDownload .btn_googleplay:hover{background-position:-175px -59px;}
+
+#AndroidDownload .btn_local{background-position:-525px 0px; height:54px; width:170px;}
+#AndroidDownload .btn_local:hover{background-position:-525px -59px;}
+
+#AndroidDownload .btn_googleplay_en{background-position:-350px 0px; height:54px; width:170px;}
+#AndroidDownload .btn_googleplay_en:hover{background-position:-350px -59px;}
+
+#AndroidDownload .btn_local_en{background-position:-700px 0px; height:54px; width:170px;}
+#AndroidDownload .btn_local_en:hover{background-position:-700px -59px;}
+
+#AndroidAPKQRCode{height: 100px; width: 100px; float: left; background:url(images/qrcode_local.png) no-repeat;  background-size: 100px 100px;}
+#AndroidAPKQRCode.ctrip{background-image:url(images/qrcode_ctrip.png);}
+#AndroidAPKQRCode.pingan{background-image:url(images/qrcode_pingan.png);}
+
+#WXCode {position: absolute; top:290px; left: 0px;}
+#WXCode .btn{background:url(images/wxcode.jpg) no-repeat; background-size: 98px 98px;  height:98px; width:98px;}
+
+
+
+.downloads .btn_android_en{background-position:-400px -2px;}
+.downloads .btn_android_en:hover{background-position:-400px -60px;}
+
+.downloads .btn_local{background-position:-525px 0px; height:54px; width:170px; }
+.downloads .btn_local:hover{background-position:-525px -59px;}
+
+.downloads .wxcode{background:url(images/wxcode.jpg) no-repeat; display:block; height:110px; width:110px; }
+
+
+.feature{color:#fff; font-size:16px; padding:0px; position:relative; border-top:1px solid #e9e9e9;}
+.feature .wrapper{overflow: hidden;}
+
+.feature .descr{z-index: 10;}
+.feature h2{color:#3180ab; font-size:60px; font-weight: 100; line-height:48px; margin-bottom:24px; }
+.feature h3{color:#3180ab; font-size:40px; font-weight: 100; line-height:48px; margin-bottom:24px; }
+.feature p{color:#404040; font-size:16px; line-height:27px; margin-top: 0px; margin-bottom: 10px;}
+
+
+
+#FeatureCities{height: 840px; background:#f9f9f9}
+#FeatureCities .descr{position:relative; width:100%; margin-top: 60px; margin-bottom: 40px;}
+#FeatureCities .descr h2{margin-bottom: 40px; width:100%; text-align:center; }
+#FeatureCities .descr p{width: 83%; margin:0px auto; text-align:center;}
+#FeatureCities .pic{ position:relative; margin: 0px auto; background:url(images/page2-back.png) no-repeat; background-size: 920px 438px; width:920px; height:438px;}
+#FeatureCities .pic_en{ position:relative; top:50px; right:40px; background:url(images/feature_1_en.png) no-repeat; width:480px; height:566px;}
+
+#FeatureWeather{height: 720px;background:#f9f9f9}
+#FeatureWeather .descr{position:absolute; top: 120px; left: 300px; width:350px; margin-bottom: 40px;}
+#FeatureWeather .descr h2{margin-bottom: 40px; width:100%; text-align:center;}
+#FeatureWeather .descr p{width: 100%; margin-bottom: 10px; text-align:center;}
+#FeatureWeather .pic1{ position:absolute; top:100px; left:30px; background:url(images/page3-back1.png) no-repeat; background-size: 254px 526px; width:254px; height:526px;}
+#FeatureWeather .pic2{ position:absolute; top:460px; left:290px; background:url(images/page3-back2.png) no-repeat; background-size: 360px 155px; width:360px; height:155px;}
+#FeatureWeather .pic3{ position:absolute; top:100px; left:680px; background:url(images/page3-back3.png) no-repeat; background-size: 254px 526px; width:254px; height:526px;}
+#FeatureWeather .pic_en{ position:relative; top:50px; right:40px; background:url(images/ .png) no-repeat; width:480px; height:566px;}
+
+#FeatureMonitor{height: 720px; position: relative; background:#f9f9f9}
+#FeatureMonitor .descr{text-align:left; width:470px; position:absolute; top:240px; left:100px}
+#FeatureMonitor .descr_en{text-align:left; width:960px; position:absolute; top:60px;}
+#FeatureMonitor .descr h2{text-align:left; margin-bottom: 40px; }
+#FeatureMonitor .pic{ position:absolute; top:100px; right:50px; background:url(images/page4-back.png) no-repeat; background-size: 435px 564px; width:435px; height:564px;}
+#FeatureMonitor .pic_en{left:0px; bottom:0px; position:absolute; background:url(images/intro_0_en.jpg) no-repeat; width:960px; height:480px;}
+
+#FeatureMap{height: 820px; background: #fff;}
+#FeatureMap .descr{text-align:center; width:960px; position:absolute; top:100px; left:0px;}
+#FeatureMap .descr_en{text-align:center; width:960px; position:absolute; top:60px; left:0px;}
+#FeatureMap .pic{left:55px; top:200px; position:absolute; background:url(images/feature_map.jpg) no-repeat; background-size:850px 630px; width:850px; height:630px;}
+#FeatureMap .pic_en{left:0px; bottom:0px; position:absolute; background:url(images/ .jpg) no-repeat; width:960px; height:480px;}
+
+#FeatureTrends{height:840px; }
+#FeatureTrends .descr{width:460px; position:absolute; top:160px; left:500px;}
+#FeatureTrends .descr_en{width:360px; position:absolute; top:200px; left:0px;}
+#FeatureTrends .pic{left:-50px; top:90px; position:absolute; background:url(images/feature_trends.jpg) no-repeat; background-size:900px 900px;  width:900px; height:900px;}
+#FeatureTrends .pic_en{right:310px; top:90px; position:absolute; background:url(images/feature_trends.jpg) no-repeat; width:900px; height:900px;}
+
+#FeatureShare{height:800px; }
+#FeatureShare .descr{width:460px; position:absolute; top:300px; left:500px;}
+#FeatureShare .descr_en{width:360px; position:absolute; top:200px; left:0px;}
+#FeatureShare .pic{left:-50px; top:90px; position:absolute; background:url(images/feature_share.jpg) no-repeat; background-size:900px 900px;  width:900px; height:900px;}
+#FeatureShare .pic_en{right:310px; top:90px; position:absolute; background:url(images/feature_trends.jpg) no-repeat; width:900px; height:900px;}
+
+
+#Studio{position:relative; padding-left:200px;padding-top:60px; background:url(images/feature_0.png) no-repeat top left;}
+#Studio .descr{width:600px; margin-bottom:80px;}
+#Studio .descr h2{font-size:16px; color:#000; margin-bottom:10px;}
+#Studio .descr p{color:#666; font-size:14px; line-height:24px; margin:5px 0;}
+#Studio .descr .links a{ font-size:14px; margin-right:16px;}
+
+#Team{position:relative; padding-left:200px;padding-top:40px; background:url(images/feature_0.png) no-repeat top left;}
+#Team .member{position:relative; margin-bottom:30px; height:150px; width:700px;}
+#Team .member .portrait_jun{position:absolute; border:1px solid #ddd; left:0px; top:0px; box-shadow:0px 0px 4px #eee; background:url(images/portrait_jun.png) no-repeat; height:120px; width:120px;}
+#Team .member .portrait_bin{position:absolute; border:1px solid #ddd; left:0px; top:0px; box-shadow:0px 0px 4px #eee; background:url(images/portrait_bin.jpg) no-repeat; height:120px; width:120px;}
+#Team .member .descr{position:absolute; left:0px; top:0px;}
+#Team .member .descr h2{font-size:20px; margin-bottom:10px;}
+#Team .member .descr p{color:#666; font-size:14px; line-height:21px;}
+#Team .member .descr .links{ font-size:14px;}
+#Team .member .descr .links a{ font-size:14px; margin-right:16px;}
+
+#Media{position:relative; padding-left:140px;padding-top:60px; background:url(images/media_bg1.png) no-repeat bottom left;}
+#Media .report{position:relative; border-bottom:1px dashed #ddd; padding-bottom:24px; margin-bottom:24px; width:740px;}
+#Media .last{border-bottom:0px;}
+#Media .report .descr{}
+#Media .report .descr h2{color:#333; font-size:18px; margin-bottom:10px;}
+#Media .report .descr h3{color:#333; font-size:14px; margin-left:16px;}
+#Media .report .descr p{color:#666; font-size:14px; margin-left:16px; line-height:22px; margin:8px 0px 8px 8px;}
+#Media .report .descr .link{margin-left:8px;}
+
+
+.content_box{background:#fff; margin:0px auto 30px; padding:30px 0 0; border:1px solid #c7c7c7; border-radius:6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; box-shadow:0px 0px 4px #ccc; width:980px;}
+#Device {width: 366px; height: 465px; background: url(images/device.png) no-repeat; float: left; margin-left: 30px; margin-top: 30px;}
+#Content {height: 500px; width: 510px; margin-left: 50px; float: left;}
+#Banner {height: 100px; margin-top: 10px; position: relative;}
+#Feature {margin:0px; padding:0px;}
+#Feature li{background:url(images/dot.png) no-repeat 0% 50%; padding-left:16px; font-size:14px; display:block; line-height:36px; margin:0px;}
+
+#Download{margin-top:30px;}
+#Download h2{font-size:16px; height:24px; font-weight:normal; line-height:24px; margin:0px 0px 5px;}
+#Download .block{float:left; height:200px; width:240px; margin-right:10px;}
+
+#Download .btn{background:url(images/btn.png) no-repeat; display:block; height:66px; width:213px; margin-right:20px;}
+#Download .btn:hover{cursor:hand;}
+
+#Download .qr{margin-left:83px; margin-top:20px; height:60px; width:60px;}
+#Download .qr_ios{background:url(images/qr_ios.png) no-repeat; }
+#Download .qr_android{background:url(images/qr_android.png) no-repeat; }
+
+#Descr {}
+#Descr .descrItem{float:left; margin-left:25px; margin-bottom:40px;}
+#Descr .mgl{margin-left:30px;}
+#Descr .descrItem h2{font-size:22px; line-height:28px;}
+#Descr .descrItem span{font-size:14px; line-height:28px; display:block;}
+#Title span{font-size:14px; line-height:21px;}
+
+/*Footer*/
+#Foot{min-width:980px; padding: 30px 0px; background: #fbfbfb; text-align:center; color:#787b7f; font-size:12px; border-top:1px solid #e9e9e9;}
+#Brand{margin:0px auto 0px;}
+
+#AboutUS{padding-top:40px; float:right; padding-right:60px;  padding-bottom:40px; }
+#IntroContent{background:url(images/aboutus.png) no-repeat; width:482px; height:141px; margin-bottom:10px; }
+#AboutUS .weibo{ display:block; float:right; width:140px; height:22px; background:url(images/follow_team.png) no-repeat;}
+
+@media screen and (-Webkit-min-device-pixel-ratio: 2) {
+	
+	#TopDescrTitle .logo{ background-image:url(images/logo_air_2x.png);}
+	#TopPic{ background:url(images/iPhone_top@2x.jpg) no-repeat; background-size: 500px 800px; }
+	#TopIntro .btn{background-image:url(images/download_btns@2x.png); background-repeat: no-repeat; background-size: 875px 150px;}
+	
+	#WXCode .btn{background:url(images/wxcode.jpg) no-repeat; background-size: 98px 98px;  height:98px; width:98px;}
+	
+	#FeatureCities .pic{ background-image:url(images/feature_cities_2x.jpg);}
+	#FeatureWeather .pic{ background-image:url(images/feature_weather_2x.jpg);}
+	#FeatureMonitor .pic{ background-image:url(images/feature_monitor_2x.jpg);}
+	#FeatureMap .pic{background-image:url(images/feature_map_2x.jpg);}
+	#FeatureTrends .pic{background-image:url(images/feature_trends_2x.jpg);}
+	#FeatureShare .pic{background-image:url(images/feature_share_2x.jpg); }
+	
+}
